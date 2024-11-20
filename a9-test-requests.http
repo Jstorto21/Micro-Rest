@@ -1,0 +1,52 @@
+### Request 1: Create an exercise
+POST http://localhost:3000/appointments HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Bob",
+    "lastName": "Builder",
+    "doctorName": "Dr. White",
+    "date": "11-22-24",
+    "time": "09:00"
+}
+
+### Request 2: Create another exercise
+POST http://localhost:3000/appointments HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Alice",
+    "lastName": "Wonderland",
+    "doctorName": "Dr. Brown",
+    "date": "11-21-24",
+    "time": "14:15"
+}
+
+### Request 3: Create an exercise
+POST http://localhost:3000/appointments HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "doctorName": "Dr. Johnson",
+    "date": "11-20-24",
+    "time": "11:30"
+}
+
+### Request 4: 
+
+GET http://localhost:3000/appointments HTTP/1.1
+
+### Request 3: Create an exercise
+POST http://localhost:3000/appointments HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": ,
+    "doctorName": "Dr. Johnson",
+    "date": "11-20-24",
+    "time": "11:30"
+
+}
