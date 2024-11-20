@@ -38,3 +38,4 @@ Notes
 CORS Support: This microservice supports CORS, allowing it to be accessed from different origins (e.g., a frontend application hosted on a different domain).
 Validation: The POST /appointments route validates the input fields. If any required field is missing or in an incorrect format, the request will return a 400 status with an error message. Ensure that the date is in the MM-DD-YY format, and the time is in the HH:mm format.
 MongoDB: The appointments are stored in MongoDB using Mongoose ORM. The createAppointment function saves new appointments, and the findAppointments function retrieves appointments based on search criteria.
+![image](https://github.com/user-attachments/assets/e638e0ae-f40f-4e6f-a043-c1c10180f935)
